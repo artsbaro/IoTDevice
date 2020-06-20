@@ -33,7 +33,7 @@ namespace simulatedDevice
                 double currentHumidity = minHumidity + rand.NextDouble() * 20;
 
                 // Create JSON message
-                var telemetryDataPoint = new
+                var telemetryDataPoint = new 
                 {
                     temperature = currentTemperature,
                     humidity = currentHumidity
